@@ -1,4 +1,5 @@
 import { motion } from "framer-motion";
+<<<<<<< HEAD
 import {
   ShieldCheck,
   BadgeIndianRupee,
@@ -27,6 +28,17 @@ const features = [
     title: "Pay After Service",
     desc: "Cash, UPI, or card — only when you're happy.",
   },
+=======
+import { ShieldCheck, BadgeIndianRupee, Clock4, Award, Sparkles, HeartHandshake } from "lucide-react";
+
+const features = [
+  { icon: ShieldCheck, title: "Verified Technicians", desc: "Background-checked, trained and uniformed." },
+  { icon: BadgeIndianRupee, title: "Upfront Pricing", desc: "Fixed rates shared before work begins." },
+  { icon: Clock4, title: "Same-Day Service", desc: "Book before 6pm, served the same day." },
+  { icon: Award, title: "30-Day Warranty", desc: "Service warranty on every repair we do." },
+  { icon: Sparkles, title: "Genuine Spares", desc: "Only OEM-grade parts and certified gas." },
+  { icon: HeartHandshake, title: "Pay After Service", desc: "Cash, UPI, or card — only when you're happy." },
+>>>>>>> 6d471f8e5d9a21fa3c562a73002267e0fb03de79
 ];
 
 export default function WhyChooseUs() {
@@ -34,6 +46,7 @@ export default function WhyChooseUs() {
     <section className="py-20 lg:py-28">
       <div className="container mx-auto px-4">
         <div className="mx-auto max-w-2xl text-center">
+<<<<<<< HEAD
           <span className="text-xs font-semibold uppercase tracking-wider text-primary">
             Why Choose Us
           </span>
@@ -43,6 +56,11 @@ export default function WhyChooseUs() {
           <p className="mt-3 text-muted-foreground">
             10,000+ households trust Doctor AC for honest pricing and lasting fixes.
           </p>
+=======
+          <span className="text-xs font-semibold uppercase tracking-wider text-primary">Why Choose Us</span>
+          <h2 className="mt-2 text-3xl sm:text-4xl font-bold">Built on trust. Powered by experts.</h2>
+          <p className="mt-3 text-muted-foreground">10,000+ households trust Doctor AC for honest pricing and lasting fixes.</p>
+>>>>>>> 6d471f8e5d9a21fa3c562a73002267e0fb03de79
         </div>
 
         <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
