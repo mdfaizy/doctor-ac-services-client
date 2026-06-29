@@ -7,7 +7,6 @@ import installImg from "@/assets/ac-installation.jpg";
 import repairImg from "@/assets/service-repair.jpg";
 
 const services = [
-<<<<<<< HEAD
   {
     icon: Wrench,
     title: "AC Repair",
@@ -44,14 +43,6 @@ const services = [
     desc: "Annual maintenance plans to keep your AC in top shape.",
     img: cleaningImg,
   },
-=======
-  { icon: Wrench, title: "AC Repair", desc: "Cooling issues, leaks, noise, electrical faults — fixed fast.", img: repairImg },
-  { icon: Snowflake, title: "AC Installation", desc: "Expert split & window AC installation with proper bracketing.", img: installImg },
-  { icon: Droplets, title: "Deep Cleaning", desc: "Jet & foam jet service for fresher air and better cooling.", img: cleaningImg },
-  { icon: Wind, title: "Gas Refilling", desc: "Leak detection + R32/R410 gas top-up with pressure check.", img: repairImg },
-  { icon: PackageOpen, title: "Uninstall & Shift", desc: "Safe AC uninstallation and relocation across the city.", img: installImg },
-  { icon: Settings2, title: "AMC & Maintenance", desc: "Annual maintenance plans to keep your AC in top shape.", img: cleaningImg },
->>>>>>> 6d471f8e5d9a21fa3c562a73002267e0fb03de79
 ];
 
 export default function Services() {
@@ -59,7 +50,6 @@ export default function Services() {
     <section id="services" className="py-20 lg:py-28 bg-gradient-soft">
       <div className="container mx-auto px-4">
         <div className="mx-auto max-w-2xl text-center">
-<<<<<<< HEAD
           <span className="text-xs font-semibold uppercase tracking-wider text-primary">
             Our Services
           </span>
@@ -70,11 +60,6 @@ export default function Services() {
             From quick repairs to full installations, our certified technicians handle every brand
             and every model.
           </p>
-=======
-          <span className="text-xs font-semibold uppercase tracking-wider text-primary">Our Services</span>
-          <h2 className="mt-2 text-3xl sm:text-4xl font-bold">Everything your AC needs — under one roof</h2>
-          <p className="mt-3 text-muted-foreground">From quick repairs to full installations, our certified technicians handle every brand and every model.</p>
->>>>>>> 6d471f8e5d9a21fa3c562a73002267e0fb03de79
         </div>
 
         <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">

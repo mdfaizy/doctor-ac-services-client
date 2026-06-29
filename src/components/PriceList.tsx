@@ -25,7 +25,6 @@ export default function PriceList() {
     <section id="pricing" className="py-20 lg:py-28">
       <div className="container mx-auto px-4">
         <div className="mx-auto max-w-2xl text-center">
-<<<<<<< HEAD
           <span className="text-xs font-semibold uppercase tracking-wider text-primary">
             Transparent Pricing
           </span>
@@ -33,11 +32,6 @@ export default function PriceList() {
           <p className="mt-3 text-muted-foreground">
             Genuine prices, no surprises. Pay only after the work is done.
           </p>
-=======
-          <span className="text-xs font-semibold uppercase tracking-wider text-primary">Transparent Pricing</span>
-          <h2 className="mt-2 text-3xl sm:text-4xl font-bold">No hidden charges. Ever.</h2>
-          <p className="mt-3 text-muted-foreground">Genuine prices, no surprises. Pay only after the work is done.</p>
->>>>>>> 6d471f8e5d9a21fa3c562a73002267e0fb03de79
         </div>
 
         <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
@@ -71,15 +65,11 @@ export default function PriceList() {
                 asChild
                 className="mt-5 w-full bg-gradient-primary text-primary-foreground shadow-card"
               >
-<<<<<<< HEAD
                 <a
                   href={waLink(
                     `Hi ${BRAND}, I'd like to book: ${it.name} (${it.price}${it.unit ?? ""}).`,
                   )}
                 >
-=======
-                <a href={waLink(`Hi ${BRAND}, I'd like to book: ${it.name} (${it.price}${it.unit ?? ""}).`)}>
->>>>>>> 6d471f8e5d9a21fa3c562a73002267e0fb03de79
                   Book on WhatsApp
                 </a>
               </Button>

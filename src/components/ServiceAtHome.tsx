@@ -4,7 +4,6 @@ import cleaningImg from "@/assets/ac-cleaning.jpg";
 
 const steps = [
   { icon: CalendarCheck, title: "Book in 30 sec", desc: "Pick a service on WhatsApp or call us." },
-<<<<<<< HEAD
   {
     icon: Truck,
     title: "Technician arrives",
@@ -16,11 +15,6 @@ const steps = [
     title: "Pay after service",
     desc: "Cash, UPI or card — only after you're happy.",
   },
-=======
-  { icon: Truck, title: "Technician arrives", desc: "Verified expert reaches your doorstep on time." },
-  { icon: Wrench, title: "Service done right", desc: "Genuine parts, proper tools, neat work." },
-  { icon: IndianRupee, title: "Pay after service", desc: "Cash, UPI or card — only after you're happy." },
->>>>>>> 6d471f8e5d9a21fa3c562a73002267e0fb03de79
 ];
 
 export default function ServiceAtHome() {
@@ -46,7 +40,6 @@ export default function ServiceAtHome() {
         </motion.div>
 
         <div>
-<<<<<<< HEAD
           <span className="text-xs font-semibold uppercase tracking-wider text-primary">
             Service At Home
           </span>
@@ -56,12 +49,6 @@ export default function ServiceAtHome() {
           <p className="mt-3 text-muted-foreground">
             We bring the workshop to your home. No long waits, no inflated bills — just clean,
             professional AC care.
-=======
-          <span className="text-xs font-semibold uppercase tracking-wider text-primary">Service At Home</span>
-          <h2 className="mt-2 text-3xl sm:text-4xl font-bold">Doorstep AC service in 4 easy steps</h2>
-          <p className="mt-3 text-muted-foreground">
-            We bring the workshop to your home. No long waits, no inflated bills — just clean, professional AC care.
->>>>>>> 6d471f8e5d9a21fa3c562a73002267e0fb03de79
           </p>
 
           <div className="mt-8 space-y-4">

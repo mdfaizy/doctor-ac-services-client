@@ -2,7 +2,6 @@ import { motion } from "framer-motion";
 import { Star } from "lucide-react";
 
 const reviews = [
-<<<<<<< HEAD
   {
     name: "Anjali Sharma",
     area: "Patna",
@@ -33,14 +32,6 @@ const reviews = [
     area: "Bhagalpur",
     text: "Reliable for AMC. They visit on time every quarter and the AC has never broken down.",
   },
-=======
-  { name: "Anjali Sharma", area: "Patna", text: "Technician arrived in 40 minutes and fixed the cooling issue. Very professional, fair pricing." },
-  { name: "Rohit Kumar", area: "Gaya", text: "Best AC jet service I've used. They cleaned it like new and didn't push extra services." },
-  { name: "Mehak Verma", area: "Patna", text: "Booked AC install on WhatsApp — done same day with proper bracket and copper pipe." },
-  { name: "Saurabh Singh", area: "Muzaffarpur", text: "Honest team. Told me my gas was fine and only needed servicing. Saved me money." },
-  { name: "Priya Raj", area: "Patna", text: "Foam jet service was amazing. Cooling improved instantly and the smell is gone." },
-  { name: "Aakash Jha", area: "Bhagalpur", text: "Reliable for AMC. They visit on time every quarter and the AC has never broken down." },
->>>>>>> 6d471f8e5d9a21fa3c562a73002267e0fb03de79
 ];
 
 export default function Reviews() {
@@ -48,7 +39,6 @@ export default function Reviews() {
     <section id="reviews" className="py-20 lg:py-28 bg-gradient-soft">
       <div className="container mx-auto px-4">
         <div className="mx-auto max-w-2xl text-center">
-<<<<<<< HEAD
           <span className="text-xs font-semibold uppercase tracking-wider text-primary">
             Customer Love
           </span>
@@ -56,11 +46,6 @@ export default function Reviews() {
           <p className="mt-3 text-muted-foreground">
             Real reviews from real customers across the region.
           </p>
-=======
-          <span className="text-xs font-semibold uppercase tracking-wider text-primary">Customer Love</span>
-          <h2 className="mt-2 text-3xl sm:text-4xl font-bold">Trusted by 10,000+ families</h2>
-          <p className="mt-3 text-muted-foreground">Real reviews from real customers across the region.</p>
->>>>>>> 6d471f8e5d9a21fa3c562a73002267e0fb03de79
         </div>
 
         <div className="mt-12 grid gap-5 sm:grid-cols-2 lg:grid-cols-3">
